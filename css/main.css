@@ -1,0 +1,94 @@
+
+/*BODY*/
+body{
+  background-color: #b9d8d6;
+/*color is a pastelle green*/
+  margin: 0;
+}
+
+/*WRAPPER*/
+.wrapper{
+  margin: 0 auto;
+  width: 80%;
+}
+
+/*HEADER*/
+.header{
+  background-color: #8de6d9;
+/*color is mint*/
+  padding: 30px;
+}
+
+.header .logo{
+  background-color: #8ae0d4;
+  display: inline-block;
+  font-size: 48px;
+  padding: 15px 50px;
+  text-transform: uppercase;
+}
+
+/*NAVIGATION*/
+.navigation{
+  background-color: #8bd4c2;
+/*color is dark mint*/
+}
+
+.navigation ul{
+  margin: 0;
+  padding-left: 0;
+}
+
+.navigation li{
+  display: inline-block;
+  padding: 15px 25px;
+}
+
+.navigation a{
+  color: #fff;
+/*color is white*/
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*MAIN*/
+.main{
+  background-color: #fff;
+  float: left;
+  min-height: 600px;
+  width: 70%;
+}
+
+.main h1{
+  padding-left: 35px;
+}
+
+.main p{
+  padding: 5px 35px;
+}
+
+/*SIDEBAR*/
+.sidebar{
+  background-color: #8bd4c2;
+  float: left;
+  min-height: 600px;
+  width: 30%;
+/*These adjustments make the sidebar flow with the Navigation bar*/
+}
+
+.sidebar h2{
+  padding-left: 20px;
+}
+
+/*FOOTER*/
+.footer{
+  clear: left;
+  background-color: #514F50;
+  font-size: 14px;
+  padding: 9px 0;
+}
+
+.footer p{
+  margin: 0;
+  color: #fff;
+  padding-left: 35px;
+}
